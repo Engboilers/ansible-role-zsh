@@ -1,6 +1,6 @@
 # Ansible Role: Zsh
 
-[![Build Status](https://travis-ci.org/kadaan/ansible-role-zsh.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-zsh)
+[![Build Status](https://travis-ci.org/engboilers/ansible-role-zsh.svg?branch=master)](https://travis-ci.org/engboilers/ansible-role-zsh)
 
 Installs zsh and configures it as the default shell.
 
@@ -14,13 +14,13 @@ None.
 
 ## Dependencies
 
-  - [kadaan.homebrew](https://galaxy.ansible.com/kadaan/homebrew/)
+  - [engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: kadaan.zsh, zsh_execute: true }
+        - { role: engboilers.zsh, zsh_execute: true }
 
 ## License
 
