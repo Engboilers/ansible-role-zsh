@@ -14,13 +14,13 @@ None.
 
 ## Dependencies
 
-  - [engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
+  - [Engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: engboilers.zsh, zsh_execute: true }
+        - { role: Engboilers.zsh, zsh_execute: true }
 
 ## License
 
