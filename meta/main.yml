@@ -13,4 +13,4 @@ galaxy_info:
     - system
     - console
 dependencies:
-  - engboilers.homebrew
+  - Engboilers.homebrew
